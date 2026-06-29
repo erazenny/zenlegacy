@@ -10,6 +10,13 @@ export const site = {
   email: "pcintergratedllc@gmail.com",
   phone: "+1 (469) 471-1554",
   phoneHref: "tel:+14694711554",
+  address: {
+    street: "337 Oaks Trail",
+    suite: "Suite 250",
+    city: "Garland",
+    state: "TX",
+    zip: "75043",
+  },
 } as const;
 
 export const navigation = [

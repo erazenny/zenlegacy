@@ -19,56 +19,121 @@ const sourceSans = Source_Sans_3({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://zenlegacyassurance.com"),
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
-      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
-    ],
-    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
-  },
-  manifest: "/site.webmanifest",
+
   title: {
-    default: `${site.name} | ${site.tagline}`,
-    template: `%s | ${site.name}`,
+    default: "ZenLegacy Assurance | Peace. Protection. Legacy.",
+    template: "%s | ZenLegacy Assurance",
   },
-  description: site.description,
+
+  description:
+    "ZenLegacy Assurance helps individuals, families, professionals, and business owners build financial confidence through education, life insurance, estate planning awareness, retirement strategies, Medicare education, and licensed protection solutions.",
+
+  applicationName: "ZenLegacy Assurance",
+
+  creator: "Princess Carol Atuma",
+
+  publisher: "ZenLegacy Assurance",
+
+  authors: [
+    {
+      name: "Princess Carol Atuma",
+    },
+  ],
+
+  category: "Financial Services",
+
   keywords: [
     "financial education",
-    "income protection",
     "life insurance",
+    "income protection",
+    "living benefits",
     "estate planning",
     "trust planning",
-    "disability insurance",
-    "long-term care",
+    "retirement planning",
+    "wealth transfer",
     "Medicare education",
+    "long-term care",
+    "disability insurance",
+    "business protection",
     "legacy planning",
+    "Garland TX financial advisor",
+    "Dallas life insurance",
+    "Texas financial services",
+    "financial services Garland",
+    "financial advisor Texas",
+    "financial advisor around DFW",
   ],
-  authors: [{ name: site.founder }],
+
+  alternates: {
+    canonical: "/",
+  },
+
+  icons: {
+    icon: [
+      {
+        url: "/favicon.ico",
+      },
+      {
+        url: "/favicon.svg",
+        type: "image/svg+xml",
+      },
+      {
+        url: "/favicon-96x96.png",
+        sizes: "96x96",
+        type: "image/png",
+      },
+    ],
+
+    apple: "/apple-touch-icon.png",
+  },
+
+  manifest: "/site.webmanifest",
+
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: site.name,
-    title: `${site.name} | ${site.tagline}`,
-    description: site.description,
+
+    url: "https://zenlegacyassurance.com",
+
+    siteName: "ZenLegacy Assurance",
+
+    title: "ZenLegacy Assurance | Peace. Protection. Legacy.",
+
+    description:
+      "Financial education and licensed protection solutions helping families and professionals prepare for life's unexpected moments.",
+
     images: [
       {
-        url: "/logos/ZENLEGACYLOGOPNG.png",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "ZenLegacy Assurance logo",
+        alt: "ZenLegacy Assurance",
       },
     ],
   },
+
   twitter: {
     card: "summary_large_image",
-    title: `${site.name} | ${site.tagline}`,
-    description: site.description,
-    images: ["/logos/ZENLEGACYLOGOPNG.png"],
+
+    title: "ZenLegacy Assurance | Peace. Protection. Legacy.",
+
+    description:
+      "Financial education and licensed protection solutions.",
+
+    images: ["/og-image.jpg"],
   },
+
   robots: {
     index: true,
     follow: true,
+
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
 };
 
