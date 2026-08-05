@@ -212,6 +212,75 @@ export const faq = {
   ],
 } as const;
 
+export const educationalTopics = {
+  eyebrow: "Education",
+  headline: "Our Educational Topics",
+  intro:
+    "At ZenLegacy Assurance, we provide educational sessions designed to help individuals, families, and business owners make informed financial decisions with greater clarity and confidence.",
+  mission:
+    "Our mission is to educate, empower, and equip you with the knowledge needed to make financial decisions that align with your family's goals, business priorities, and long-term vision.",
+  topics: [
+    {
+      title: "Income Replacement Strategies",
+      description:
+        "Learn ways to help protect your family's financial stability in the event of death, disability, critical illness, or another unexpected life event.",
+      icon: "shield-check" as const,
+    },
+    {
+      title: "College Funding Strategies",
+      description:
+        "Explore strategies for preparing for higher education and alternative funding options that may help reduce dependence on student loans.",
+      icon: "graduation-cap" as const,
+    },
+    {
+      title: "Supplemental Retirement Planning",
+      description:
+        "Discover strategies designed to help create additional retirement income and strengthen your long-term financial future.",
+      icon: "landmark" as const,
+    },
+    {
+      title: "Estate Planning and Legacy Preservation",
+      description:
+        "Understand how thoughtful planning can help protect your assets, preserve your legacy, and simplify the transfer of wealth to future generations.",
+      icon: "scroll-text" as const,
+    },
+    {
+      title: "Business Solutions",
+      description:
+        "Learn about staff-retention and executive-benefit strategies that can help business owners attract, reward, and retain valuable employees while supporting long-term business growth.",
+      icon: "briefcase" as const,
+    },
+    {
+      title: "Additional Income Opportunities",
+      description:
+        "Explore opportunities to build an additional stream of income while continuing your current career, profession, or business.",
+      icon: "trending-up" as const,
+    },
+  ],
+} as const;
+
+export const upcomingEvents = {
+  eyebrow: "Events",
+  headline: "Upcoming Events",
+  intro:
+    "Join ZenLegacy Assurance at educational conferences, leadership events, financial literacy workshops, and community gatherings across the United States.",
+  learnMoreLabel: "Learn More",
+  events: [
+    {
+      slug: "austin-elevate",
+      title: "Austin Elevate",
+      description: "Educational financial empowerment event.",
+      alt: "Austin Elevate event flyer — August 8, 2026 in Austin, Texas, hosted by Princess Carol Atuma, MSN, LFP",
+    },
+    {
+      slug: "southwest-regional",
+      title: "Southwest Regional Convention",
+      description: "Educational financial empowerment event.",
+      alt: "Southwest Regional Convention event flyer — October 16–17, 2026 in Phoenix, Arizona, hosted by Princess Carol Atuma",
+    },
+  ],
+} as const;
+
 export const cta = {
   headline: "Ready to understand your options?",
   body: "Schedule a one-on-one consultation to discuss income protection, legacy planning, and the strategies that fit your life—not someone else's template.",
