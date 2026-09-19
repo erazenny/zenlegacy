@@ -2,7 +2,7 @@ import { Hero } from "@/components/home/Hero";
 import { AboutPreview } from "@/components/home/AboutPreview";
 import { ServicesPreview } from "@/components/home/ServicesPreview";
 import { EducationalTopics } from "@/components/home/EducationalTopics";
-import { UpcomingEvents } from "@/components/home/UpcomingEvents";
+import { EventsPreview } from "@/components/home/EventsPreview";
 import { WhyChoose } from "@/components/home/WhyChoose";
 import { Process } from "@/components/home/Process";
 import { FAQPreview } from "@/components/home/FAQPreview";
@@ -15,7 +15,7 @@ export default function Home() {
       <AboutPreview />
       <ServicesPreview />
       <EducationalTopics />
-      <UpcomingEvents />
+      <EventsPreview />
       <WhyChoose />
       <Process />
       <FAQPreview />

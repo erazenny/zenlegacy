@@ -6,6 +6,7 @@ type SectionHeaderProps = {
   intro?: string;
   align?: "left" | "center";
   light?: boolean;
+  headingId?: string;
   children?: ReactNode;
 };
 
@@ -15,6 +16,7 @@ export function SectionHeader({
   intro,
   align = "left",
   light = false,
+  headingId,
   children,
 }: SectionHeaderProps) {
   const alignClass = align === "center" ? "text-center mx-auto" : "text-left";
@@ -30,6 +32,7 @@ export function SectionHeader({
         {eyebrow}
       </p>
       <h2
+        id={headingId}
         className={`font-serif text-3xl leading-tight tracking-tight sm:text-4xl lg:text-[2.75rem] lg:leading-[1.15] ${
           light ? "text-white" : "text-navy"
         }`}

@@ -20,10 +20,11 @@ export const site = {
 } as const;
 
 export const navigation = [
-  { label: "About", href: "#about" },
-  { label: "Services", href: "#services" },
-  { label: "Approach", href: "#process" },
-  { label: "FAQ", href: "#faq" },
+  { label: "About", href: "/#about" },
+  { label: "Services", href: "/#services" },
+  { label: "Events", href: "/events" },
+  { label: "Approach", href: "/#process" },
+  { label: "FAQ", href: "/#faq" },
 ] as const;
 
 export const hero = {
@@ -255,28 +256,6 @@ export const educationalTopics = {
       description:
         "Explore opportunities to build an additional stream of income while continuing your current career, profession, or business.",
       icon: "trending-up" as const,
-    },
-  ],
-} as const;
-
-export const upcomingEvents = {
-  eyebrow: "Events",
-  headline: "Upcoming Events",
-  intro:
-    "Join ZenLegacy Assurance at educational conferences, leadership events, financial literacy workshops, and community gatherings across the United States.",
-  learnMoreLabel: "Learn More",
-  events: [
-    {
-      slug: "austin-elevate",
-      title: "Austin Elevate",
-      description: "Educational financial empowerment event.",
-      alt: "Austin Elevate event flyer — August 8, 2026 in Austin, Texas, hosted by Princess Carol Atuma, MSN, LFP",
-    },
-    {
-      slug: "southwest-regional",
-      title: "Southwest Regional Convention",
-      description: "Educational financial empowerment event.",
-      alt: "Southwest Regional Convention event flyer — October 16–17, 2026 in Phoenix, Arizona, hosted by Princess Carol Atuma",
     },
   ],
 } as const;
