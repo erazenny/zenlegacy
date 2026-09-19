@@ -57,24 +57,41 @@ export const eventsPage = {
 
 export const upcomingEvents: FlyerItem[] = [
   {
-    id: "no-family-left-behind",
-    title: "No Family Left Behind",
-    image: "/events/upcoming/no-family-left-behind.png",
-    alt: "No Family Left Behind event flyer by ZenLegacy Assurance — family protection and legacy planning services",
-    width: 633,
-    height: 1536,
-  },
-  {
     id: "lunch-and-learn",
     title: "Lunch & Learn",
     image: "/events/upcoming/lunch-and-learn.png",
-    alt: "Lunch and Learn event flyer hosted by Princess Carol Atuma — financial education gathering in Allen, Texas",
+    alt: "Lunch and Learn event flyer hosted by Princess Carol Atuma — September 19–20 in Allen, Texas",
     width: 1024,
     height: 1536,
   },
+  {
+    id: "men-and-money",
+    title: "Men and Money",
+    image: "/events/upcoming/men-and-money.png",
+    alt: "Men and Money virtual event flyer — September 26 with Pastor Engr. Israel Udoka and Wisdom Abikure, hosted by ZenLegacy Assurance",
+    width: 1054,
+    height: 1492,
+  },
 ];
 
-export const pastEvents: FlyerItem[] = [];
+export const pastEvents: FlyerItem[] = [
+  {
+    id: "austin-elevate-2026",
+    title: "Austin Elevate 2026",
+    image: "/events/past/austin-elevate-2026.jpeg",
+    alt: "Austin Elevate 2026 event flyer — August 8, 2026 in Austin, Texas, hosted by Princess Carol Atuma, MSN, LFP",
+    width: 1054,
+    height: 1492,
+  },
+  {
+    id: "southwest-regional-2026",
+    title: "Southwest Regional Convention 2026",
+    image: "/events/past/southwest-regional-2026.jpeg",
+    alt: "Southwest Regional Convention 2026 event flyer — October 16–17, 2026 in Phoenix, Arizona, hosted by Princess Carol Atuma",
+    width: 1023,
+    height: 1537,
+  },
+];
 
 export const opportunities: FlyerItem[] = [
   {

@@ -43,19 +43,8 @@ export default function EventsPage() {
       />
 
       <FlyerGallery
-        className="bg-cream"
-        eyebrow={eventsPage.past.eyebrow}
-        title={eventsPage.past.title}
-        intro={eventsPage.past.intro}
-        items={pastEvents}
-        actionLabel={eventsPage.upcoming.viewEventLabel}
-        variant="event"
-        emptyMessage={eventsPage.past.emptyMessage}
-        headingId="past-events-heading"
-      />
-
-      <FlyerGallery
         id="opportunities"
+        className="bg-cream"
         eyebrow={eventsPage.opportunities.eyebrow}
         title={eventsPage.opportunities.title}
         intro={eventsPage.opportunities.intro}
@@ -68,7 +57,6 @@ export default function EventsPage() {
       />
 
       <FlyerGallery
-        className="bg-cream"
         eyebrow={eventsPage.education.eyebrow}
         title={eventsPage.education.title}
         intro={eventsPage.education.intro}
@@ -76,6 +64,18 @@ export default function EventsPage() {
         actionLabel={eventsPage.education.viewResourceLabel}
         variant="resource"
         headingId="educational-resources-heading"
+      />
+
+      <FlyerGallery
+        className="bg-cream"
+        eyebrow={eventsPage.past.eyebrow}
+        title={eventsPage.past.title}
+        intro={eventsPage.past.intro}
+        items={pastEvents}
+        actionLabel={eventsPage.upcoming.viewEventLabel}
+        variant="event"
+        emptyMessage={eventsPage.past.emptyMessage}
+        headingId="past-events-heading"
       />
     </>
   );
